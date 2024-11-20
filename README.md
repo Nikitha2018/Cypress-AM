@@ -1,5 +1,6 @@
 Cypress tests for Audit Manager +
-This repository contains Cypress tests for the Compliance Manager App.
+
+This repository contains Cypress tests for the Audit Manager App.
 
 Adding Tests
 Please remember to keep this repository up to date as the tests become worthless otherwise. A good rule of thumb is to add a new test that covers whatever bug you're fixing so we can track regressions on it. Also, make sure to code your tests in a cross-operating system compliant manner as it's valid to run them in Windows, Mac or Linux environments.
@@ -22,10 +23,6 @@ Headless mode.
     npx cypress run
 Give URL from the command line
 npx cypress run --env environment=value
-
-The default environment is QA
-
-If we want to run it on UAT, we can send it through the command line or change the environment value in the cypress.config.js file. The command line value will override the config file value.
 
 Command line examples
 Run a specific spec file
